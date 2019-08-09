@@ -97,11 +97,11 @@ footer a {
 }
 
 .top-nav-collapse {
-    background-color: #563d7c;
+    background-color: #1897e0;
 }
 
 .navbar-col-show {
-    background-color: #563d7c;
+    background-color: #1897e0;
 }
 
 @media (max-width: 768px) {
@@ -110,11 +110,11 @@ footer a {
     }
 
     .top-nav-collapse {
-        background-color: #563d7c;
+        background-color: #1897e0;
     }
 
     .navbar-col-show {
-        background-color: #563d7c;
+        background-color: #1897e0;
     }
 }
 
