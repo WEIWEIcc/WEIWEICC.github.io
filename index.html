@@ -102,11 +102,12 @@
             <p class="h4 index-header">HTML中奇葩的闭合优先则</p>
             <div class="index-excerpt">
               
-                <div class="index-text mb-1">最近在网上看到一篇关于HTML的闭合规则的文章，觉得很有意思，实际上手操作了一番。
+                <div class="index-text mb-1">最近在网上看到一篇关于HTML的闭合规则的文章，觉得挺有意思，自己尝试了一下：
 代码12345678910&lt;html&gt;&lt;head&gt;&lt;title&gt;noframes&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;noframes&gt;&lt;img src="//t.tt#&lt;/noframes&gt;&lt;script&gt;alert(1)&lt;/script&gt;"&gt;&lt;/noframes&gt;&lt;/body&gt;&lt;/html&gt;
 
 
-</div>
+分析从第7行代码可以看出noframes标签的闭合优先级是要高于双引号的完整性优先级的。经过一系列的测试可以发现这些标签的优先级也是高于双引号的优先级的：
+12345678&lt;!--&lt;iframe&gt;&lt;noframe&gt;&lt;script&gt;&lt;style&gt;&lt;title&gt;&lt;xmp&gt;&lt;textarea&gt;</div>
               
             </div>
         </a>
@@ -126,22 +127,10 @@
   
     <div class="col-12 col-md-8 m-auto">
         <a href="/2019/08/08/hello-world/">
-            <p class="h4 index-header">Hello World</p>
+            <p class="h4 index-header">开篇</p>
             <div class="index-excerpt">
               
-                <div class="index-text mb-1">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post1$ hexo new "My New Post"
-
-More info: Writing
-Run server1$ hexo server
-
-More info: Server
-Generate static files1$ hexo generate
-
-More info: Generating
-Deploy to remote sites1$ hexo deploy
-
-More info: Deployment
+                <div class="index-text mb-1">以前学习的一些总结都是直接把记录在Evernote上，后来发现记录在博客上可能会更好一点，记录在本地上只是给自己看的，可能很多东西都记得比较潦草，一般也就自己看的明白，没有很好的起到总结归纳的作用。但是记录在博客上的东西毕竟是放在网上的，大家都能看到(虽然也没几个人看哈哈哈)，就会迫使自己把东西理顺在写出来，也会较好的督促自己学习不断输出。加油！！！
 </div>
               
             </div>
